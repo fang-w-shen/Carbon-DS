@@ -1,0 +1,91 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><title>Webpack App</title><meta name="viewport" content="width=device-width,initial-scale=1"/><style>html, body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }</style><script>/* globals window */
+  /* eslint-disable no-underscore-dangle */
+  try {
+    if (window.top !== window) {
+      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = window.top.__REACT_DEVTOOLS_GLOBAL_HOOK__;
+    }
+  } catch (e) {
+    // eslint-disable-next-line no-console
+    console.warn('unable to connect to top frame for connecting dev tools');
+  }
+
+  window.onerror = function onerror(message, source, line, column, err) {
+    if (window.CONFIG_TYPE !== 'DEVELOPMENT') return;
+    // eslint-disable-next-line no-var, vars-on-top
+    var xhr = new window.XMLHttpRequest();
+    xhr.open('POST', '/runtime-error');
+    xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+    xhr.send(
+      JSON.stringify({
+        /* eslint-disable object-shorthand */
+        message: message,
+        source: source,
+        line: line,
+        column: column,
+        error: err && { message: err.message, name: err.name, stack: err.stack },
+        origin: 'manager',
+        /* eslint-enable object-shorthand */
+      })
+    );
+  };</script><meta name="keywords" content="IBM, design, system, Carbon, design system, Bluemix, styleguide, style, guide, components, library, pattern, kit, component, cloud, React, React.js"/><meta name="description" content="This is the React implementation of the Carbon Design System. Carbon is a series of individual styles and components, that when combined make beautiful, intuitive designs."/><meta property="og:title" content="Carbon Components React"/><meta property="og:site_name" content="Carbon Components React"/><meta property="og:description" content="This is the React implementation of the Carbon Design System. Carbon is a series of individual styles and components, that when combined make beautiful, intuitive designs."/><meta property="og:image" content="https://media.github.ibm.com/user/1679/files/aa651000-7749-11eb-900e-eeb9312ed756"/><meta property="og:url" content="http://react.carbondesignsystem.com"/><link rel="icon" type="image/svg+xml" href="favicon.svg" sizes="any"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image:alt" content="Carbon Design System"/><meta name="twitter:image" content="https://media.github.ibm.com/user/1679/files/aa651000-7749-11eb-900e-eeb9312ed756"/><meta name="twitter:site" content="@_carbondesign"/><script>setTimeout(function () {
+    document.title = 'Carbon Components React';
+  }, 1000);</script><style>body {
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  body a[href='/?path=/settings/about'] {
+    display: none;
+  }
+
+  .os-content form span {
+    font-weight: 600;
+  }
+
+  .os-content a button {
+    color: #161616;
+  }
+
+  button.sidebar-item svg {
+    color: #161616;
+  }
+
+  a.sidebar-item[data-selected='true'] {
+    color: #161616;
+  }
+
+  a.sidebar-item[data-selected='true'] svg {
+    color: #161616;
+  }
+
+  mark[class*='css-'] {
+    color: #0f62fe;
+  }</style><style>#root[hidden],
+      #docs-root[hidden] {
+        display: none !important;
+      }</style></head><body><div id="root"></div><div id="docs-root"></div><script>window['CONFIG_TYPE'] = "PRODUCTION";
+          
+      
+          
+            window['LOGLEVEL'] = "info";
+          
+      
+          
+            window['FEATURES'] = {"postcss":true,"emotionAlias":false,"warnOnLegacyHierarchySeparator":true,"buildStoriesJson":false,"storyStoreV7":false,"modernInlineRender":false,"breakingChangesV7":false,"interactionsDebugger":false,"babelModeV7":false,"argTypeTargetsV7":false,"previewMdx2":false,"previewCsfV3":true};
+          
+      
+          
+      
+          
+      
+          
+            window['DOCS_MODE'] = false;</script><script src="runtime~main.ece56b2ddb59c38fed5a.manager.bundle.js"></script><script src="16.5ce7c1086ebb1d754a79.manager.bundle.js"></script><script src="main.f82a91330aab03dba963.manager.bundle.js"></script></body></html>
